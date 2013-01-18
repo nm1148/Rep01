@@ -1,0 +1,72 @@
+<html>
+<head>
+<script type="text/javascript">
+/*statements , variables, comments */
+//This is a comment
+var x; //variable declared
+x=5; //variable assignment
+document.write(x); //use of variable
+var color;
+color = "pink";
+document.write(color);
+/*operators*/
+var firstname = "Nidhi" +" " +"'Nikki'";
+var lastname = "Modak";
+var name = firstname + " " + lastname;
+document.write(name);
+/*comparison 01*/
+var x=5;
+var age=(x==21)?"OK":"Too young";
+document.write(age);
+age=(x===5)?" 5":" Not 5";
+document.write(age);
+/*comparison 02*/
+var a=6;
+var b=3;
+var z=(a!=b)?" ok":" too young";
+document.write(z);
+/* if , else if and else statement */
+var time=18;
+if(time<12)
+{
+document.write(" Good Morning");
+}
+else if(time>12 && time<16)
+{
+document.write(" Good Afternoon");
+}
+else
+{
+document.write(" Good Evening");
+}
+/* switch statement */
+var day=5;
+switch(day)
+{
+case 0:
+document.write("sunday!");
+break;
+case 1:
+document.write("monday!");
+break;
+case 6:
+document.write("saturday!");
+break;
+default:
+document.write("Choose Another Day");
+}
+/* pop up */
+alert("pop up");
+/* functions */
+function product(a,b)
+{
+return (a+b);
+}
+</script>
+</head>
+<body>
+<script type="text/javascript">
+document.write(product(4,4));
+</script>
+</body>
+</html>
