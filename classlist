@@ -1,0 +1,55 @@
+public class ListTest{
+    
+            setup_data{
+                List color_list = initialize(); 
+                color_list.add("Red");
+                color_list.add("Yellow");
+                color_list.add("Blue");
+                color_list.add("Purple");
+                color_list.add("Orange");
+                color_list.add("Green");
+                color_list.add("Aqua");
+                color_list.add("Green");
+                color_list.add("Indigo");
+    
+                List animal_list = initialize();
+                animal_list.add("Lion");
+                animal_list.add("Tiger");
+                animal_list.add("Monkey");
+                animal_list.add("Rabbit");
+                animal_list.add("Boar");
+                animal_list.add("Pig");
+                animal_list.add("Dog");
+                animal_list.add("Cat");
+                animal_list.add("Elephant");
+    
+    
+                List num_list = initialize();
+                for(x=1; x<50; x+1){
+                    num_list.add(x);
+                }
+            }
+    
+            add_value_to_num_list{
+                // Return a list that adds 10 to each element in num_list (should start with 11 and end with 59
+                List num_list = initialize();
+                for(x=1;x<50;x++){
+                    return num_list.add(x+10)
+                }
+            }
+    
+            add_value_to_num_list_to_even_only{
+                // Return a list which contains only even numbers from num_list
+                // Example: [12, 14, 16, 18, 20, 22, 24, ...]
+            }
+    
+            get_all_items_that_start_with_vowel{
+                // Return a list of all elements from color_list that start with a vowel
+            }
+    
+            combine_elements_from_two_lists{
+                // Take each element from color_list and combine it with the element at the corresponding index in the animal_list
+                // Example: ['RedLion', 'YellowTiger'...]
+            }
+    
+    }
